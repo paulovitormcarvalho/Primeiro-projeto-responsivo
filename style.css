@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.menu {
+    margin-left: 76px;
+    margin-top: 44px;
+}
+
+header {
+    margin-top: 150px;
+    margin-left: 86px;
+}
+
+section {
+    display: flex;
+}
+
+img {
+    display: flex;
+    margin-top: 144px;
+    margin-left: 125px;
+    height: 500px;
+    width: 568px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    width: 515px;
+    height: 87px;
+    text-align: justify;
+    margin-top: 32px;
+    color: #848484;
+}
+
+.button-explore {
+    background: #ADFF00;
+    border: none;
+    font-weight: 700;
+    font-size: 28px;
+    border-radius: 50px;
+    width: 239px;
+    height: 64px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.button-login {
+    font-weight: 600;
+    font-size: 23px;
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20.5px;
+    cursor: pointer;
+}
+
+a {
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #989D9C;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #515151;
+    border-radius: 25px;
+}
+
+.button-login:hover {
+    background-color: #515151;
+    
+}
+
+.button-explore:hover {
+    background-color: #515151;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    p {
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin: 7px 0 17px 0;
+    }
+
+    img {
+        margin-left: 0;
+        margin-top: 149px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 354px;
+        height: 317px;
+        align-items: center;
+    }
+
+    header {
+        margin-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-items: center;
+    }
+
+    .button-explore {
+        margin-top: 17px;
+    }
+}
