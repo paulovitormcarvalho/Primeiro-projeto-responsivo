@@ -140,5 +140,6 @@ a:hover {
 
     .button-explore {
         margin-top: 17px;
+        align-items: center;
     }
 }
