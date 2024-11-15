@@ -117,6 +117,8 @@ a:hover {
     h2 {
         font-size: 30px;
         margin: 7px 0 17px 0;
+        width: 400px;
+        text-align: center;
     }
 
     img {
